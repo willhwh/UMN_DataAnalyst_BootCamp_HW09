@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="fig3.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class='row justify-content-between'>
+            <div>
+                <a href="landing_f.html" class="active"><h1 id='page_title'>Latitude</h1></a>
+                
+            </div>
+            <div class="btn-group">
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" >
+                    Plots
+                    </button>
+                    <div class="dropdown-menu dropbtn">
+                        <a class="dropdown-item" href="temeprature.html">Max Temerature</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                    </div>
+                <a class="btn btn-primary " href="comparison.html" role="button">Comparison</a>
+                <a class="btn btn-primary " href="data.html" role="button">Data</a>
+            </div>
+        </div>
+    </div>
+    <div claass='container'>
+        <div class='row'>
+            <div id='section1' class='col-8'>
+                <h3 class= 'title'>Cloudiness</h1>
+                <img class='fig_1 fig_s' src='Resources/assets/images/Fig3.png' >
+                <p>
+                  There is no clearly visable trend between Cloudiness and Deg. of Latitude.
+                </p>
+            </div>
+            <div id='section2' class='col-4 right'>
+                <h3 class='title'>Visulizations </h1>
+                <div class="aside fig" ></div>
+                    <a href='temeprature.html'>
+                        <img id='fig_1' class='fig fig_1' src='Resources/assets/images/Fig1.png'  width='150',height='150'>
+                    </a>
+                    <a href='cloudiness.html'>
+                        <img id='fig_3'class='fig fig_3' src='Resources/assets/images/Fig3.png'  width='150',height='150'>
+                    </a>
+                    <a href='humidity.html'>
+                        <img id='fig_2'class='fig fig_2' src='Resources/assets/images/Fig2.png'  width='150',height='150'>
+                    </a>
+                    <a href='wind_speed.html'>
+                        <img id='fig_4'class='fig fig_4' src= 'Resources/assets/images/Fig4.png'width='150',height='150'>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+
+    </div>
+</body>
+</html>
