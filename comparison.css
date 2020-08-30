@@ -54,6 +54,12 @@ h3{
   border-color: #9933cc;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 @media only screen and (max-width: 767px) {
   /* For tablets: */
@@ -87,24 +93,36 @@ h3{
   }
 
   .fig_1{
-  max-width:40%;
-  max-height:50%;
+  display: block;
+  max-width:100%;
+  max-height:150%;
+  margin-left: auto;
+  margin-right: auto;
   }
 
-  .fig_2{
-  max-width:40%;
-  max-height:50%;
+  .fig_2{ 
+    display: block;
+  max-width:100%;
+  max-height:150%;
+  margin-left: auto;
+  margin-right: auto;
   }
   
       
   .fig_3{
-  max-width:40%;
-  max-height:50%;
+    display: block;
+  max-width:100%;
+  max-height:150%;
+  margin-left: auto;
+  margin-right: auto;
   }
       
   .fig_4{
-  max-width:40%;
-  max-height:50%;
+    display: block;
+  max-width:100%;
+  max-height:150%;
+  margin-left: auto;
+  margin-right: auto;
   }
   
 

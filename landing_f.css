@@ -1,20 +1,9 @@
-* {
-  box-sizing: border-box;
-}
 
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-}
+
 
 body{
   background-color: lightgray;
 }
-
-#page_title{
-  background-color:lightgray;
-}
-
 
 
 .aside {
@@ -38,20 +27,9 @@ body{
   background-color:whitesmoke;
  }
 
-.fig_s{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.fig_0{
-  float: left;
-  max-width: 50%;
-  max-height: 50%;
-}
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 300px) {
   /* For tablets: */
   #section1{
     position:relative;
@@ -62,10 +40,16 @@ body{
   #section2 {
     position:relative;
   }
-  .fig_s{
-    width:250;
-    height:250;
+  .fig_0{
+    max-width:100%;
+    max-height:100%;
+    }
+
+  .fig_1, .fig_2, .fig_3, .fig_4{
+    max-width:50%;
+    max-height:50%;
   }
+  
 }
 
 
@@ -85,31 +69,18 @@ body{
       position:relative;
   }
 
-  .fig_1{
-  max-width:40%;
-  max-height:50%;
+  .fig_0{
+    max-width:80%;
+    max-height:70%;
+    }
+
+  .fig_1, .fig_2, .fig_3, .fig_4{
+    max-width:50%;
+    max-height:80%;
   }
 
-  .fig_2{
-  max-width:40%;
-  max-height:50%;
-  }
-  
-      
-  .fig_3{
-  max-width:40%;
-  max-height:50%;
-  }
-      
-  .fig_4{
-  max-width:40%;
-  max-height:50%;
-  }
-  
-  .fig_s{
-  max-width:100%;
-  max-height:100%;
-  }
 
 }
+
+
   
